@@ -1,3 +1,4 @@
+const serverless = require("serverless-http");
 const dotenv = require("dotenv");
 const express = require("express");
 const cors = require("cors");
@@ -24,4 +25,5 @@ app.use(routes);
 
 app.listen(port, () => console.log(`http://localhost:${port}`));
 
-module.exports = app;
+module.exports.handler = serverless(app);
+

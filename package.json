@@ -1,0 +1,31 @@
+{
+  "name": "liliq-draft-order",
+  "version": "1.0.0",
+  "description": "Initial first steps ```bash $ bash init.bash ```",
+  "main": "index.js",
+  "scripts": {
+		"start": "serverless offline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BTrain137/net-term-draft-order-to-order.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BTrain137/net-term-draft-order-to-order/issues"
+  },
+  "homepage": "https://github.com/BTrain137/net-term-draft-order-to-order#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
+    "serverless-dotenv-plugin": "^3.9.0",
+    "serverless-http": "^2.7.0",
+    "serverless-offline": "^7.0.0"
+  }
+}

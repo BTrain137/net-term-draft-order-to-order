@@ -1,10 +1,10 @@
 const { Router } = require("express");
-const helloWorld = require("./hello-world.js");
+const draftOrder = require("./draft-order.js");
 
 const router = Router();
 
 // Test Route
 // /webhook/
-router.use("/hello-world", helloWorld);
+router.use("/draft-order", draftOrder);
 
 module.exports = router;

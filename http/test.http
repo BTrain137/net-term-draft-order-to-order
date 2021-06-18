@@ -1,10 +1,10 @@
 ### 
 # Test API routes
-GET http://localhost:3001/api/hello-world
+GET http://localhost:3001/dev/api/hello-world
 
 ###
 # Test webhook routes
-POST http://localhost:3001/webhook/hello-world
+POST http://localhost:3000/dev/webhook/draft-order
 Content-Type: application/json
 
 {
